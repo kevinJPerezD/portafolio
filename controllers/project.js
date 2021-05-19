@@ -9,7 +9,6 @@ var fs = require('fs');
 var controller = {
 
     home: function(req, res) {
-        alert('home');
         return res.status(200).send({
             message: 'soy la home'
         });

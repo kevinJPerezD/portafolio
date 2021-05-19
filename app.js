@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 });
 
 // rutas
-app.use('/api', project_routes);
+app.use(project_routes);
 
 // exportar
 module.exports = app;
